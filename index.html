@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Comikr</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" /> <!-- css for the webpage  -->
+    
+ <!-- js and css for the Yahoo YUI  -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.1/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.1/build/selector/selector-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.1/build/event-delegate/event-delegate-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
+<link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/3.2.0/build/cssfonts/fonts-min.css" /> 
+
+<!--css for the corner rounded layout, many kinds inside -->
+<link type="text/css" rel="stylesheet" href="dialog.css" />
+<!--css for all functions, overlay, text recognition -->
+<script type="text/javascript" src="animationScript.js"></script>
+</head>
+
+<body>
+  <div id="ie"></div>
+  <div id="wrapper">
+      <ul id="nav">
+          <li><a href="index.html"><img src="images/menu_1.gif" width="31" height="70" alt="home" /></a></li>
+          <li><a href="comikr.html"><img src="images/menu_2.gif" width="31" height="70" alt="portfolio" /></a></li>
+          <li><a href="about.html"><img src="images/menu_3.gif" width="31" height="70" alt="designs" /></a></li>
+      </ul>
+      <h1><a href="/"><img src="images/logo_s.jpg" width="135" height="30" alt="logo" /></a></h1>
+      
+      
+      <div id="body">
+          <div class="inner">
+              <div id="content"><div>
+                  <p><b><font size="12">Storkr</font></b></p>                  <div id="overlay" class="yui3-overlay-loading">
+<table frame="void" border="0"><tr><td><blockquote class="example-right">
+    <div class="yui3-widget-hd"></div>
+    <div id="overlaybody" class="yui3-widget-bd"></div>
+    <div class="yui3-widget-ft"></div>
+ </blockquote></td></tr></table>
+</div>
+
+
+<div id="container">
+	<div id="list">
+	<p>Welcome to Storkr! Storkr is designed to helps people especially <span id='span-3' class='wblock' title='0'>kids</span> <span id='span-4' class='wblock' title='0'>read</span> faster and more interesting. For <span id='span-5' class='wblock' title='0'>text</span> showing here, each keyword is related to a <span id='span-6' class='wblock' title='0'>Yahoo image</span> search result or <span id='span-7' class='wblock' title='0'>Flickr</span> photo. When you move your mouse over the text, a popup will show you what the thing is alike.</p>
+    
+    <p>What are you waiting for? Try your Storkr now. Copy and paste your story in the textbox below and Stork your story to fancy images!</p>
+    </div>
+</div>
+  <p>
+    <textarea name="txt" cols="45" rows="5" class="wblock" id="txt"></textarea>
+   </p>
+   
+   <p>
+    
+    <input name="Stork" type="button" id="Stork" value="Storkr" onclick="javascript:updateTXT()" />
+
+	<select name="picker" id="picker">
+<option value="yimage">Yahoo! Image</option>
+<option value="flickr">Flickr</option>
+    </select>
+
+  </p>
+
+              </div></div><!-- end content --><!-- end page_title --><!-- end news -->
+            <div class="clear"></div>
+          </div><!-- end .inner -->
+          <div id="footer">
+              <img src="images/footer.gif" width="435" height="196" alt="tortoise" class="footer" />
+              <img src="images/footer_ie.gif" width="435" height="196" alt="tortoise" class="footerie" />
+          </div><!-- end footer -->
+      </div><!-- end body -->
+      <div id="paper">
+          <div class="inner">
+          <table width="auto" border="0"><tr><td>
+          <a href="http://www.facebook.com/sharer.php" name="fb_share" type="button_count"></a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></td><td>
+         <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yahoo.com" data-count="horizontal" data-via="leonyliu"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</td></tr></table>
+
+          </div><!-- end .inner -->
+      </div><!-- end paper -->
+	
+  </div><!-- end wrapper -->
+  <!-- Do not remove read http://www.freewebsitetemplates.com/termsofuse/ -->
+ </body>
+</html>
